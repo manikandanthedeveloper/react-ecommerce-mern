@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "title": "Wireless Bluetooth Headphones",
+        "description": "High-quality wireless headphones with deep bass and noise isolation.",
+        "price": 2999,
+        "discountPercentage": 10,
+        "rating": 4.5,
+        "stock": 30,
+        "brand": "SoundMax",
+        "category": "electronics",
+        "isNew": true,
+        "thumbnail": "/images/products/1/thumb.jpg",
+        "images": [
+            "/images/products/1/1.jpg",
+            "/images/products/1/2.jpg"
+        ],
+        "tags": [
+            "audio",
+            "wireless",
+            "bluetooth"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Smart Fitness Watch",
+        "description": "AMOLED display smartwatch with GPS and 24/7 heart-rate monitoring.",
+        "price": 4999,
+        "discountPercentage": 12,
+        "rating": 4.3,
+        "stock": 50,
+        "brand": "FitLife",
+        "category": "electronics",
+        "isNew": true,
+        "thumbnail": "/images/products/2/thumb.jpg",
+        "images": [
+            "/images/products/2/1.jpg",
+            "/images/products/2/2.jpg"
+        ],
+        "tags": [
+            "fitness",
+            "wearable",
+            "smartwatch"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Gaming RGB Keyboard",
+        "description": "Mechanical keyboard with RGB lighting and anti-ghosting keys.",
+        "price": 3499,
+        "discountPercentage": 15,
+        "rating": 4.4,
+        "stock": 80,
+        "brand": "KeyBlaze",
+        "category": "electronics",
+        "isNew": true,
+        "thumbnail": "/images/products/3/thumb.jpg",
+        "images": [
+            "/images/products/3/1.jpg",
+            "/images/products/3/2.jpg"
+        ],
+        "tags": [
+            "gaming",
+            "keyboard",
+            "rgb"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Portable Bluetooth Speaker",
+        "description": "Waterproof speaker with powerful sound and long battery backup.",
+        "price": 1999,
+        "discountPercentage": 18,
+        "rating": 4.2,
+        "stock": 100,
+        "brand": "BeatBox",
+        "category": "electronics",
+        "isNew": true,
+        "thumbnail": "/images/products/4/thumb.jpg",
+        "images": [
+            "/images/products/4/1.jpg",
+            "/images/products/4/2.jpg"
+        ],
+        "tags": [
+            "speaker",
+            "portable",
+            "music"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "USB-C Fast Charger 30W",
+        "description": "Fast charging USB-C adapter compatible with all smartphones.",
+        "price": 999,
+        "discountPercentage": 8,
+        "rating": 4.1,
+        "stock": 120,
+        "brand": "ChargePro",
+        "category": "accessories",
+        "isNew": true,
+        "thumbnail": "/images/products/5/thumb.jpg",
+        "images": [
+            "/images/products/5/1.jpg",
+            "/images/products/5/2.jpg"
+        ],
+        "tags": [
+            "charger",
+            "usb-c",
+            "fast-charge"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "4K LED Smart TV 43-inch",
+        "description": "Ultra HD smart TV with HDR10 and built-in streaming apps.",
+        "price": 24999,
+        "discountPercentage": 9,
+        "rating": 4.6,
+        "stock": 20,
+        "brand": "VisionX",
+        "category": "electronics",
+        "isNew": true,
+        "thumbnail": "/images/products/6/thumb.jpg",
+        "images": [
+            "/images/products/6/1.jpg",
+            "/images/products/6/2.jpg"
+        ],
+        "tags": [
+            "tv",
+            "4k",
+            "smart-tv"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Professional DSLR Camera",
+        "description": "24MP DSLR camera with dual-pixel autofocus and 4K video.",
+        "price": 54999,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 15,
+        "brand": "CamPro",
+        "category": "electronics",
+        "isNew": false,
+        "thumbnail": "/images/products/7/thumb.jpg",
+        "images": [
+            "/images/products/7/1.jpg",
+            "/images/products/7/2.jpg"
+        ],
+        "tags": [
+            "camera",
+            "dslr",
+            "photography"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Men’s Running Shoes",
+        "description": "Lightweight breathable shoes for running and training.",
+        "price": 1799,
+        "discountPercentage": 20,
+        "rating": 4.3,
+        "stock": 60,
+        "brand": "SprintWear",
+        "category": "fashion",
+        "isNew": false,
+        "thumbnail": "/images/products/8/thumb.jpg",
+        "images": [
+            "/images/products/8/1.jpg",
+            "/images/products/8/2.jpg"
+        ],
+        "tags": [
+            "shoes",
+            "sports",
+            "running"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Ladies Handbag Premium",
+        "description": "Elegant handbag made with premium leather-finish material.",
+        "price": 1299,
+        "discountPercentage": 14,
+        "rating": 4.2,
+        "stock": 70,
+        "brand": "StyleCraft",
+        "category": "fashion",
+        "isNew": false,
+        "thumbnail": "/images/products/9/thumb.jpg",
+        "images": [
+            "/images/products/9/1.jpg",
+            "/images/products/9/2.jpg"
+        ],
+        "tags": [
+            "handbag",
+            "fashion",
+            "women"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Laptop Backpack 30L",
+        "description": "Durable waterproof backpack suitable for laptops up to 15.6 inch.",
+        "price": 1499,
+        "discountPercentage": 10,
+        "rating": 4.3,
+        "stock": 90,
+        "brand": "UrbanPack",
+        "category": "fashion",
+        "isNew": false,
+        "thumbnail": "/images/products/10/thumb.jpg",
+        "images": [
+            "/images/products/10/1.jpg",
+            "/images/products/10/2.jpg"
+        ],
+        "tags": [
+            "backpack",
+            "laptop-bag",
+            "travel"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Stainless Steel Water Bottle 1L",
+        "description": "Insulated bottle keeps water hot and cold for 12+ hours.",
+        "price": 799,
+        "discountPercentage": 11,
+        "rating": 4.5,
+        "stock": 200,
+        "brand": "HydroMax",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/11/thumb.jpg",
+        "images": [
+            "/images/products/11/1.jpg",
+            "/images/products/11/2.jpg"
+        ],
+        "tags": [
+            "bottle",
+            "steel",
+            "kitchen"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Non-stick Cookware Set",
+        "description": "5-piece non-stick cookware set with heat-resistant handles.",
+        "price": 2499,
+        "discountPercentage": 18,
+        "rating": 4.1,
+        "stock": 35,
+        "brand": "CookMate",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/12/thumb.jpg",
+        "images": [
+            "/images/products/12/1.jpg",
+            "/images/products/12/2.jpg"
+        ],
+        "tags": [
+            "cookware",
+            "kitchen",
+            "non-stick"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Office Chair Ergonomic",
+        "description": "Comfortable adjustable office chair with lumbar support.",
+        "price": 6999,
+        "discountPercentage": 7,
+        "rating": 4.4,
+        "stock": 25,
+        "brand": "ComfortSeat",
+        "category": "furniture",
+        "isNew": false,
+        "thumbnail": "/images/products/13/thumb.jpg",
+        "images": [
+            "/images/products/13/1.jpg",
+            "/images/products/13/2.jpg"
+        ],
+        "tags": [
+            "chair",
+            "office",
+            "ergonomic"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Wooden Coffee Table",
+        "description": "Minimalistic solid wood coffee table for modern homes.",
+        "price": 4599,
+        "discountPercentage": 6,
+        "rating": 4.2,
+        "stock": 18,
+        "brand": "HomeCraft",
+        "category": "furniture",
+        "isNew": false,
+        "thumbnail": "/images/products/14/thumb.jpg",
+        "images": [
+            "/images/products/14/1.jpg",
+            "/images/products/14/2.jpg"
+        ],
+        "tags": [
+            "table",
+            "wood",
+            "living-room"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Men’s Cotton T-Shirt",
+        "description": "100% cotton premium casual wear with soft comfort.",
+        "price": 599,
+        "discountPercentage": 12,
+        "rating": 4.0,
+        "stock": 150,
+        "brand": "UrbanWear",
+        "category": "fashion",
+        "isNew": false,
+        "thumbnail": "/images/products/15/thumb.jpg",
+        "images": [
+            "/images/products/15/1.jpg",
+            "/images/products/15/2.jpg"
+        ],
+        "tags": [
+            "tshirt",
+            "men",
+            "casual"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Women’s Summer Dress",
+        "description": "Lightweight and breathable printed summer dress.",
+        "price": 999,
+        "discountPercentage": 15,
+        "rating": 4.1,
+        "stock": 95,
+        "brand": "FashionHive",
+        "category": "fashion",
+        "isNew": false,
+        "thumbnail": "/images/products/16/thumb.jpg",
+        "images": [
+            "/images/products/16/1.jpg",
+            "/images/products/16/2.jpg"
+        ],
+        "tags": [
+            "dress",
+            "women",
+            "summer"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Kids Cartoon School Bag",
+        "description": "Attractive school bag with cartoon print for kids.",
+        "price": 699,
+        "discountPercentage": 14,
+        "rating": 4.2,
+        "stock": 60,
+        "brand": "KidPack",
+        "category": "kids",
+        "isNew": false,
+        "thumbnail": "/images/products/17/thumb.jpg",
+        "images": [
+            "/images/products/17/1.jpg",
+            "/images/products/17/2.jpg"
+        ],
+        "tags": [
+            "kids",
+            "school-bag",
+            "cartoon"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Baby Cotton Romper",
+        "description": "Soft cotton romper suitable for babies 6–12 months.",
+        "price": 499,
+        "discountPercentage": 10,
+        "rating": 4.5,
+        "stock": 80,
+        "brand": "BabySoft",
+        "category": "kids",
+        "isNew": false,
+        "thumbnail": "/images/products/18/thumb.jpg",
+        "images": [
+            "/images/products/18/1.jpg",
+            "/images/products/18/2.jpg"
+        ],
+        "tags": [
+            "baby",
+            "romper",
+            "kids"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Stainless Steel Dinner Set",
+        "description": "12-piece dinner set made with high-grade stainless steel.",
+        "price": 1599,
+        "discountPercentage": 9,
+        "rating": 4.3,
+        "stock": 55,
+        "brand": "SteelWare",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/19/thumb.jpg",
+        "images": [
+            "/images/products/19/1.jpg",
+            "/images/products/19/2.jpg"
+        ],
+        "tags": [
+            "kitchen",
+            "steel",
+            "dinner-set"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Non-Slip Yoga Mat",
+        "description": "Eco-friendly anti-slip yoga mat for workouts and meditation.",
+        "price": 999,
+        "discountPercentage": 18,
+        "rating": 4.3,
+        "stock": 40,
+        "brand": "FitMat",
+        "category": "fitness",
+        "isNew": false,
+        "thumbnail": "/images/products/20/thumb.jpg",
+        "images": [
+            "/images/products/20/1.jpg",
+            "/images/products/20/2.jpg"
+        ],
+        "tags": [
+            "fitness",
+            "yoga",
+            "mat"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Electric Kettle 1.8L",
+        "description": "Stainless steel electric kettle with auto shut-off feature.",
+        "price": 899,
+        "discountPercentage": 10,
+        "rating": 4.1,
+        "stock": 110,
+        "brand": "BoilMate",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/21/thumb.jpg",
+        "images": [
+            "/images/products/21/1.jpg",
+            "/images/products/21/2.jpg"
+        ],
+        "tags": [
+            "kitchen",
+            "appliance",
+            "kettle"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Cordless Hair Trimmer",
+        "description": "Rechargeable hair trimmer with stainless steel blades.",
+        "price": 1299,
+        "discountPercentage": 16,
+        "rating": 4.4,
+        "stock": 75,
+        "brand": "TrimPro",
+        "category": "personal-care",
+        "isNew": false,
+        "thumbnail": "/images/products/22/thumb.jpg",
+        "images": [
+            "/images/products/22/1.jpg",
+            "/images/products/22/2.jpg"
+        ],
+        "tags": [
+            "trimmer",
+            "grooming",
+            "hair-care"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Hair Dryer 2000W",
+        "description": "Powerful 2000W hair dryer with cool-shot function.",
+        "price": 1499,
+        "discountPercentage": 10,
+        "rating": 4.2,
+        "stock": 65,
+        "brand": "StyleDry",
+        "category": "personal-care",
+        "isNew": false,
+        "thumbnail": "/images/products/23/thumb.jpg",
+        "images": [
+            "/images/products/23/1.jpg",
+            "/images/products/23/2.jpg"
+        ],
+        "tags": [
+            "hair-dryer",
+            "beauty",
+            "personal-care"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Kitchen Mixer Grinder",
+        "description": "3-jar powerful mixer grinder for all kitchen needs.",
+        "price": 2599,
+        "discountPercentage": 11,
+        "rating": 4.3,
+        "stock": 40,
+        "brand": "MixMaster",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/24/thumb.jpg",
+        "images": [
+            "/images/products/24/1.jpg",
+            "/images/products/24/2.jpg"
+        ],
+        "tags": [
+            "kitchen",
+            "mixer",
+            "appliance"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Men’s Analog Wrist Watch",
+        "description": "Classic leather strap analog watch for men.",
+        "price": 1399,
+        "discountPercentage": 13,
+        "rating": 4.1,
+        "stock": 85,
+        "brand": "TimeWear",
+        "category": "accessories",
+        "isNew": false,
+        "thumbnail": "/images/products/25/thumb.jpg",
+        "images": [
+            "/images/products/25/1.jpg",
+            "/images/products/25/2.jpg"
+        ],
+        "tags": [
+            "watch",
+            "men",
+            "accessory"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Women’s Sunglasses UV400",
+        "description": "Stylish UV400 protective sunglasses for women.",
+        "price": 899,
+        "discountPercentage": 20,
+        "rating": 4.2,
+        "stock": 70,
+        "brand": "ShadeLux",
+        "category": "accessories",
+        "isNew": false,
+        "thumbnail": "/images/products/26/thumb.jpg",
+        "images": [
+            "/images/products/26/1.jpg",
+            "/images/products/26/2.jpg"
+        ],
+        "tags": [
+            "sunglasses",
+            "women",
+            "fashion"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Wireless Mouse Rechargeable",
+        "description": "Ergonomic silent-click wireless mouse with USB-C charging.",
+        "price": 699,
+        "discountPercentage": 8,
+        "rating": 4.3,
+        "stock": 160,
+        "brand": "ClickPro",
+        "category": "electronics",
+        "isNew": false,
+        "thumbnail": "/images/products/27/thumb.jpg",
+        "images": [
+            "/images/products/27/1.jpg",
+            "/images/products/27/2.jpg"
+        ],
+        "tags": [
+            "mouse",
+            "wireless",
+            "computer"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Laptop Cooling Pad",
+        "description": "RGB laptop cooling pad with dual fans for gaming and office use.",
+        "price": 1199,
+        "discountPercentage": 14,
+        "rating": 4.1,
+        "stock": 90,
+        "brand": "CoolTech",
+        "category": "electronics",
+        "isNew": false,
+        "thumbnail": "/images/products/28/thumb.jpg",
+        "images": [
+            "/images/products/28/1.jpg",
+            "/images/products/28/2.jpg"
+        ],
+        "tags": [
+            "cooler",
+            "laptop",
+            "accessory"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Stainless Steel Spice Rack",
+        "description": "Revolving spice rack with 12 transparent jars.",
+        "price": 1699,
+        "discountPercentage": 10,
+        "rating": 4.4,
+        "stock": 55,
+        "brand": "KitchenTop",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/29/thumb.jpg",
+        "images": [
+            "/images/products/29/1.jpg",
+            "/images/products/29/2.jpg"
+        ],
+        "tags": [
+            "spice-rack",
+            "kitchen",
+            "storage"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Modern LED Table Lamp",
+        "description": "Touch-control LED desk lamp with 3 brightness levels.",
+        "price": 1299,
+        "discountPercentage": 9,
+        "rating": 4.2,
+        "stock": 75,
+        "brand": "BrightLite",
+        "category": "home",
+        "isNew": false,
+        "thumbnail": "/images/products/30/thumb.jpg",
+        "images": [
+            "/images/products/30/1.jpg",
+            "/images/products/30/2.jpg"
+        ],
+        "tags": [
+            "lamp",
+            "led",
+            "table-light"
+        ]
+    }
+]

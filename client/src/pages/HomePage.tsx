@@ -1,5 +1,7 @@
+import NewProducts from "../components/NewProducts"
+
 const HomePage = () => {
-    return <h2>Homepage component!!</h2>;
+    return <NewProducts />;
 }
 
 export default HomePage;

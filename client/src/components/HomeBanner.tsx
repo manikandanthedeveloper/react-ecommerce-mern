@@ -25,7 +25,7 @@ function HomeBanner() {
 
     useEffect(() => {
         const inner = (sliderRef.current)?.innerSlider;
-        const list: HTMLElement | null = inner?.list || null; // .slick-list
+        const list: HTMLElement | null = inner?.list || null;
 
         if (!list) return;
 
@@ -35,18 +35,13 @@ function HomeBanner() {
                 const isHidden = slide.getAttribute("aria-hidden") === "true";
 
                 if (isHidden) {
-                    // Make sure hidden slides cannot receive focus at all
                     slide.setAttribute("inert", "");
                 } else {
                     slide.removeAttribute("inert");
                 }
             });
         };
-
-        // Run once on mount
         updateSlides();
-
-        // Watch for aria-hidden changes and re-apply inert
         const observer = new MutationObserver(updateSlides);
         observer.observe(list, {
             attributes: true,

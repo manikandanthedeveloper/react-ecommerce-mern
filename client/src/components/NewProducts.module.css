@@ -1,0 +1,15 @@
+.slick-slider-wrapper :global(.slick-arrow) {
+    width: 30px;
+    height: 30px;
+}
+
+.slick-slider-wrapper :global(.slick-next:before),
+.slick-slider-wrapper :global(.slick-prev:before) {
+    content: "" !important;
+    display: none !important;
+}
+
+.slick-slider-wrapper :global(.slick-disabled) {
+    opacity: 0.3;
+    cursor: auto;
+}
