@@ -1,0 +1,38 @@
+/* Prevent overflow */
+.slider-container,
+.slick-slider,
+.slick-list,
+.slick-track {
+    overflow: hidden;
+}
+
+/* Fix spacing issues */
+.slick-slide {
+    padding: 0 !important;
+    margin: 0 !important;
+    outline: none !important;
+}
+
+/* Make sure images fit */
+.slick-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Remove unwanted gaps */
+.slick-list {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track {
+    overflow: hidden;
+}
+
+/* Prevent page horizontal scroll */
+body {
+    overflow-x: hidden;
+}
