@@ -5,6 +5,8 @@ import RightArrow from "../assets/icons/right-arrow.svg"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import classes from "./NewProducts.module.css";
+import DUMMY_DATA from '../data.json';
+import type { Product } from "../models/Product";
 
 const NextArrow = ({ className, style, onClick }: CustomArrowProps) => {
     return (
@@ -67,9 +69,7 @@ const NewProducts = () => {
             }
         ]
     };
-
-    // Dummy items (Replace with your products JSON)
-    const items = [1, 2, 3, 4, 5, 6, 7];
+    const PRODUCTS: Product[] = DUMMY_DATA;
 
     return (
         <div className="container my-5">
@@ -77,25 +77,26 @@ const NewProducts = () => {
 
             <div className={classes['slick-slider-wrapper']}>
                 <Slider {...settings}>
-                    {items.map((item) => (
-                        <div key={item} className="p-2">
-                            <div className="card shadow-sm border-0">
-                                <img
-                                    src={`https://picsum.photos/300/200?random=${item}`}
-                                    className="card-img-top"
-                                    alt="Product"
-                                    style={{ height: "200px", objectFit: "cover" }}
-                                />
-                                <div className="card-body text-center">
-                                    <h5 className="card-title">Product {item}</h5>
-                                    <p className="card-text text-muted mb-2">Rs. {(item * 499).toFixed(0)}</p>
-                                    <button className="btn btn-primary btn-sm">
-                                        View Details
-                                    </button>
+                    {PRODUCTS.map((product) =>
+                        product.isNew && (
+                            <div key={product.id} className="p-2">
+                                <div className="card shadow-sm border-0">
+                                    <img
+                                        src={import.meta.env.VITE_PUBLIC_URL + product.thumbnail}
+                                        className="card-img-top"
+                                        alt={product.title}
+                                        style={{ height: "200px", objectFit: "cover" }}
+                                    />
+                                    <div className="card-body text-center">
+                                        <h5 className="card-title">Product {product.title}</h5>
+                                        <p className="card-text text-muted mb-2">Rs. {(product.price).toFixed(0)}</p>
+                                        <button className="btn btn-primary btn-sm">
+                                            View Details
+                                        </button>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                    ))}
+                            </div>)
+                    )}
                 </Slider>
             </div>
         </div>
